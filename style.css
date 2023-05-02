@@ -45,7 +45,9 @@
   }
   
   .person-icon {
-        max-width: 90%;
+    width: 200px;
+    height: 290px;
+    margin-left: 10px;
   }
   
   .attention-message {
@@ -106,4 +108,9 @@
       margin-left: 5px;
     }
   }
-  
+  footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
