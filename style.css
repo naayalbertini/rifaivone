@@ -45,9 +45,10 @@
   }
   
   .person-icon {
-    width: 200px;
-    height: 290px;
-    margin-left: 10px;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+
   }
   
   .attention-message {
