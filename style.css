@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .person-icon {
+    width: 200px;
+    height: 290px;
+    margin-left: 10px;
+  }
+  
+  .attention-message {
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+  .contact-button {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .contact-button a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contact-button a:hover {
+    background-color: #148f77;
+  }
+  
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    .person-icon {
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+    }
+  }
+  
